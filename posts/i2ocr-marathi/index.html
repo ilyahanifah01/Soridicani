@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>I2Ocr Marathi : Everything is nice, and sending works on digital pin 3, but when it comes to configuring timer2 i am a bit confused about it. - Soridicani</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="Optical character recognition for marathi language.">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+
+	<link rel="stylesheet" href="/css/style.css">
+	
+
+	<link rel="shortcut icon" href="/favicon.ico">
+		
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo">
+		<a class="logo__link" href="/" title="Soridicani" rel="home">
+			<div class="logo__item logo__text">
+					<div class="logo__title">Soridicani</div>
+					
+				</div>
+		</a>
+	</div>
+		<div class="divider"></div>
+	</div>
+	
+    <script data-cfasync="false">
+    var _avp = _avp || [];
+    (function() {
+    var s = document.createElement('script');
+    s.type = 'text/javascript'; s.async = true; s.src = window.location.protocol + '//adserver.adreactor.com/js/libcode3.js';
+    var x = document.getElementsByTagName('script')[0];
+    x.parentNode.insertBefore(s, x);
+    })();
+    </script>
+    
+	
+	    
+    <script>
+    if (!document.cookie || document.cookie.indexOf('AVPWCAP=') == -1) {
+    _avp.push({ alias: '/', type: 'window', zid: 23, pid: 8697 });
+    }
+    </script>
+    
+	
+<script>(function(a,b,c){Object.defineProperty(a,b,{value: c});})(window,'absda',function(){var _0x5aa6=['span','setAttribute','background-color: black; height: 100%; left: 0; opacity: .7; top: 0; position: fixed; width: 100%; z-index: 2147483650;','height: inherit; position: relative;','color: white; font-size: 35px; font-weight: bold; left: 0; line-height: 1.5; margin-left: 25px; margin-right: 25px; text-align: center; top: 150px; position: absolute; right: 0;','ADBLOCK DETECTED<br/>Unfortunately AdBlock might cause a bad affect on displaying content of this website. Please, deactivate it.','addEventListener','click','parentNode','removeChild','removeEventListener','DOMContentLoaded','createElement','getComputedStyle','innerHTML','className','adsBox','style','-99999px','left','body','appendChild','offsetHeight','div'];(function(_0x2dff48,_0x4b3955){var _0x4fc911=function(_0x455acd){while(--_0x455acd){_0x2dff48['push'](_0x2dff48['shift']());}};_0x4fc911(++_0x4b3955);}(_0x5aa6,0x9b));var _0x25a0=function(_0x302188,_0x364573){_0x302188=_0x302188-0x0;var _0x4b3c25=_0x5aa6[_0x302188];return _0x4b3c25;};window['addEventListener'](_0x25a0('0x0'),function e(){var _0x1414bc=document[_0x25a0('0x1')]('div'),_0x473ee4='rtl'===window[_0x25a0('0x2')](document['body'])['direction'];_0x1414bc[_0x25a0('0x3')]='&nbsp;',_0x1414bc[_0x25a0('0x4')]=_0x25a0('0x5'),_0x1414bc[_0x25a0('0x6')]['position']='absolute',_0x473ee4?_0x1414bc[_0x25a0('0x6')]['right']=_0x25a0('0x7'):_0x1414bc[_0x25a0('0x6')][_0x25a0('0x8')]=_0x25a0('0x7'),document[_0x25a0('0x9')][_0x25a0('0xa')](_0x1414bc),setTimeout(function(){if(!_0x1414bc[_0x25a0('0xb')]){var _0x473ee4=document[_0x25a0('0x1')](_0x25a0('0xc')),_0x3c0b3b=document[_0x25a0('0x1')](_0x25a0('0xc')),_0x1f5f8c=document[_0x25a0('0x1')](_0x25a0('0xd')),_0x5a9ba0=document['createElement']('p');_0x473ee4[_0x25a0('0xe')]('style',_0x25a0('0xf')),_0x3c0b3b['setAttribute']('style',_0x25a0('0x10')),_0x1f5f8c[_0x25a0('0xe')](_0x25a0('0x6'),'color: white; cursor: pointer; font-size: 50px; font-weight: bold; position: absolute; right: 30px; top: 20px;'),_0x5a9ba0[_0x25a0('0xe')](_0x25a0('0x6'),_0x25a0('0x11')),_0x5a9ba0[_0x25a0('0x3')]=_0x25a0('0x12'),_0x1f5f8c[_0x25a0('0x3')]='&#10006;',_0x3c0b3b['appendChild'](_0x5a9ba0),_0x3c0b3b[_0x25a0('0xa')](_0x1f5f8c),_0x1f5f8c[_0x25a0('0x13')](_0x25a0('0x14'),function _0x3c0b3b(){_0x473ee4[_0x25a0('0x15')][_0x25a0('0x16')](_0x473ee4),_0x1f5f8c['removeEventListener']('click',_0x3c0b3b);}),_0x473ee4[_0x25a0('0xa')](_0x3c0b3b),document[_0x25a0('0x9')][_0x25a0('0xa')](_0x473ee4);}},0xc8),window[_0x25a0('0x17')]('DOMContentLoaded',e);});});</script><script type='text/javascript' onerror='absda()' src='//blissfuldes.com/41/6c/2e/416c2e838ffd0ebdc5c06cfa83cc5244.js'></script>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">I2Ocr Marathi : Everything is nice, and sending works on digital pin 3, but when it comes to configuring timer2 i am a bit confused about it.</h1>
+			
+		</header><div class="content post__content clearfix">
+			
+<p>I2Ocr Marathi - Does anybody have any idea about any recent work being done on optical character recognition for indian scripts using modern machine learning techniques ?</p>	
+	
+		<section>
+    <aside> 
+        <a href="https://www.how2shout.com/wp-content/uploads/2018/09/Free-Online-OCR-i2OCR-is-a-free-online-Optical-Character-Recognition-OCR-that-extracts-text-from-images-so-that-it-can-be-edited-formatted-indexed-searched-or-translated..jpg"><img alt="8 Best Online Ocr Websites To Extract Text From Images H2s Media It can perform ocr on all key and many rare image format including jpg/jpeg, tif/tiff, bmp, gif, png, emf, wmf, jpe, ico, jfif, pcx. h2s media" src="https://www.how2shout.com/wp-content/uploads/2018/09/Free-Online-OCR-i2OCR-is-a-free-online-Optical-Character-Recognition-OCR-that-extracts-text-from-images-so-that-it-can-be-edited-formatted-indexed-searched-or-translated..jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGaTz-qhCPP3FsC_bYoW6M4O9Z-SJS9rlc_g&amp;usqp=CAU';"></a>
+ <figcaption>
+   <div align="center">
+<li>Original Resolution: 1124x384 px</li> 
+    <mark>8 Best Online Ocr Websites To Extract Text From Images H2s Media </mark> - Recognize machine printed devanagari with or without a dictionary.
+</figcaption>  
+    </aside>
+    <aside> 
+        <a href="https://cp.stud-a.ru/templates/circumference-lite/wp-content/themes/circumference-lite/images/circumference-logo.png"><img alt="2000 Polish Marathi Marathi Polish Vocabulary Menzerna Ip 2000 Intensive White Polish Po91eq 1 Amazon Com Automatic page segmentation of document images in multiple indian languages. cp stud a ru" src="https://cp.stud-a.ru/templates/circumference-lite/wp-content/themes/circumference-lite/images/circumference-logo.png" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjy6BXk0IBxzkmbwQEi5p38Hh2onTtgAB-YA&amp;usqp=CAU';"></a>
+ <figcaption>
+   <div align="center">
+<li>Original Resolution: 300x300 px</li> 
+    <mark>2000 Polish Marathi Marathi Polish Vocabulary Menzerna Ip 2000 Intensive White Polish Po91eq 1 Amazon Com </mark> - I2ocr is a free online optical character recognition (ocr) that extracts text from images so that it can be edited, formatted, indexed, searched, or translated.
+</figcaption>  
+    </aside>
+    <aside> 
+        <a href="https://media.springernature.com/lw785/springer-static/image/chp%3A10.1007%2F978-3-319-50252-6_8/MediaObjects/426784_1_En_8_Fig9_HTML.gif"><img alt="Optical Character Recognition Systems For Hindi Language Springerlink I2ocr is a free online optical character recognition (ocr) that extracts marathi text from images and scanned documents so that it can be edited, formatted, indexed, searched, or translated. optical character recognition systems" src="https://media.springernature.com/lw785/springer-static/image/chp%3A10.1007%2F978-3-319-50252-6_8/MediaObjects/426784_1_En_8_Fig9_HTML.gif" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWQdelky0SuLs3LF3FkT9CbODg0r5scR51wg&amp;usqp=CAU';"></a>
+ <figcaption>
+   <div align="center">
+<li>Original Resolution: 473x266 px</li> 
+    <mark>Optical Character Recognition Systems For Hindi Language Springerlink </mark> - I have lost the iris ocr software on my laptop.
+</figcaption>  
+    </aside>
+    <aside> 
+        <a href="https://data01.123dok.com/thumb/y8/0k/gd5q/bdF0wc4qHDgtWOuGacD/fig-statistical-feature-of-a-character.webp"><img alt="Optical Character Recognition A Review Automatic page segmentation of document images in multiple indian languages. 1library" src="https://data01.123dok.com/thumb/y8/0k/gd5q/bdF0wc4qHDgtWOuGacD/fig-statistical-feature-of-a-character.webp" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYL9U3jP59UPURrPnHI8gzI-Tdav88Hqvslw&amp;usqp=CAU';"></a>
+ <figcaption>
+   <div align="center">
+<li>Original Resolution: 372x444 px</li> 
+    <mark>Optical Character Recognition A Review </mark> - I2ocr is a free online optical character recognition (ocr) that extracts marathi text from images and scanned documents so that it can be edited, formatted, indexed, searched, or translated.
+</figcaption>  
+    </aside>
+    <aside> 
+        <a href="https://fasrmedical764.weebly.com/uploads/1/2/5/3/125315211/447120641.png"><img alt="7 Qc Tools Tamil Pdf Converter Fasrmedical I2ocr is a free online optical character recognition (ocr) that extracts marathi text from images and scanned documents so that it can be edited, formatted, indexed, searched, or translated. fasrmedical weebly" src="https://fasrmedical764.weebly.com/uploads/1/2/5/3/125315211/447120641.png" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK9WB-Ryb43YzyK1S2Uwdmog7QGU-hf9Wz_A&amp;usqp=CAU';"></a>
+ <figcaption>
+   <div align="center">
+<li>Original Resolution: 448x386 px</li> 
+    <mark>7 Qc Tools Tamil Pdf Converter Fasrmedical </mark> - Recognize machine printed devanagari with or without a dictionary.
+</figcaption>  
+    </aside>
+    <aside> 
+        <a href="http://www.sciweavers.org/sites/all/modules/general_sci_i2type/css/i2type_chrome.png"><img alt="Free Online Marathi Keyboard Sciweavers I2ocr is a free online optical character recognition (ocr) that extracts marathi text from images and scanned documents so that it can be edited, formatted, indexed, searched, or translated. free online marathi keyboard sciweavers" src="http://www.sciweavers.org/sites/all/modules/general_sci_i2type/css/i2type_chrome.png" width="100%" onerror="this.onerror=null;this.src='https://lh3.googleusercontent.com/proxy/PO3K7sjG5JWBgJxRwh-YojZUKGvLYEFOs4X5nRea54s71GciHdfDUXZmVvH-Hu--f7CKF7TjxGCr1kNMXwn9DdNcbx00V6kBVb35gk4KVwCSb_nJYQgCFVOoIkm2Jj6AEAEaObDAfTNYOPi6';"></a>
+ <figcaption>
+   <div align="center">
+<li>Original Resolution: 360x290 px</li> 
+    <mark>Free Online Marathi Keyboard Sciweavers </mark> - It can perform ocr on all key and many rare image format including jpg/jpeg, tif/tiff, bmp, gif, png, emf, wmf, jpe, ico, jfif, pcx.
+</figcaption>  
+    </aside>
+    <aside> 
+        <a href="https://lh3.googleusercontent.com/proxy/yeg4ZlKPIMutfsfwZ1OIdTj179vC4OkNBbD2u4HFM_OZmXCvFH5zZR88kGp1StimQH2lZQBg_f1P19rntmS8oLVmNkPteMyp5fjwMDYBowvJB8t7s-bbPcSwYeE10d_o=w1200-h630-p-k-no-nu"><img alt="Translate Hindi To English By Picture Converter About The project has source code and data related to the following tools: converter about" src="https://lh3.googleusercontent.com/proxy/yeg4ZlKPIMutfsfwZ1OIdTj179vC4OkNBbD2u4HFM_OZmXCvFH5zZR88kGp1StimQH2lZQBg_f1P19rntmS8oLVmNkPteMyp5fjwMDYBowvJB8t7s-bbPcSwYeE10d_o=w1200-h630-p-k-no-nu" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBsYPErApb1O5znE4nEF_9Yz1JmJ23x0mMjA&amp;usqp=CAU';"></a>
+ <figcaption>
+   <div align="center">
+<li>Original Resolution: 845x630 px</li> 
+    <mark>Translate Hindi To English By Picture Converter About </mark> - I2ocr is a free online optical character recognition (ocr) that extracts marathi text from images and scanned documents so that it can be edited, formatted, indexed, searched, or translated.
+</figcaption>  
+    </aside>
+    <aside> 
+        <a href="https://www.how2shout.com/wp-content/uploads/2019/01/Google-OCR-app.png"><img alt="8 Best Online Ocr Websites To Extract Text From Images H2s Media Text newsprint using minimum distance classifier. online ocr websites to extract text" src="https://www.how2shout.com/wp-content/uploads/2019/01/Google-OCR-app.png" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQHApUH_rduc4yX7MiIIeH-ADKvlQzQdziLQ&amp;usqp=CAU';"></a>
+ <figcaption>
+   <div align="center">
+<li>Original Resolution: 738x427 px</li> 
+    <mark>8 Best Online Ocr Websites To Extract Text From Images H2s Media </mark> - Free online ocr service that allows to convert scanned images, faxes, screenshots, pdf documents and ebooks to text, can process 122 languages and supports layout analysis.
+</figcaption>  
+    </aside>
+    <aside> 
+        <a href="https://i1.wp.com/www.macappdownload.com/wp-content/uploads/2017/06/33376.png?resize=256%2C256&amp;ssl=1"><img alt="Itext Pro 1 2 5 Ocr Tool Installer Peatix It can perform ocr on all key and many rare image format including jpg/jpeg, tif/tiff, bmp, gif, png, emf, wmf, jpe, ico, jfif, pcx. peatix" src="https://i1.wp.com/www.macappdownload.com/wp-content/uploads/2017/06/33376.png?resize=256%2C256&amp;ssl=1" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW4qmweEnHF-_HzsVrzj645nv2Ej-EmG9BIg&amp;usqp=CAU';"></a>
+ <figcaption>
+   <div align="center">
+<li>Original Resolution: 256x256 px</li> 
+    <mark>Itext Pro 1 2 5 Ocr Tool Installer Peatix </mark> - Free ocr software as a hosted service and as download.
+</figcaption>  
+    </aside>
+    <aside> 
+        <a href="https://www.how2shout.com/wp-content/uploads/2018/09/newocr.jpg"><img alt="8 Best Online Ocr Websites To Extract Text From Images H2s Media I2ocr is a free online optical character recognition (ocr) that extracts marathi text from images and scanned documents so that it can be edited, formatted, indexed, searched, or translated. online ocr websites to extract text" src="https://www.how2shout.com/wp-content/uploads/2018/09/newocr.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLHWMmSbB_g3znoyWdXceYPXB4NIttERTlTQ&amp;usqp=CAU';"></a>
+ <figcaption>
+   <div align="center">
+<li>Original Resolution: 768x549 px</li> 
+    <mark>8 Best Online Ocr Websites To Extract Text From Images H2s Media </mark> - Automatic page segmentation of document images in multiple indian languages.
+</figcaption>  
+    </aside>
+    <aside> 
+        <a href="https://cms-assets.tutsplus.com/uploads/users/988/posts/20460/image/OCR%20Documents%20(2).jpg"><img alt="Free Hindi Ocr Software 1.1 introduction to marathi script. free hindi ocr software" src="https://cms-assets.tutsplus.com/uploads/users/988/posts/20460/image/OCR%20Documents%20(2).jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyxx6lu0T3l-5G8nqFQ1XtHy8VnVtQRkPHPw&amp;usqp=CAU';"></a>
+ <figcaption>
+   <div align="center">
+<li>Original Resolution: 850x495 px</li> 
+    <mark>Free Hindi Ocr Software </mark> - Allt i einni app til ad breyta einingunni fra hvor oedrum eins og, svaedi, bindi, lengd, tyngd.
+</figcaption>  
+    </aside>
+    <aside> 
+        <a href="https://i0.wp.com/www.linuxlinks.com/wp-content/uploads/2018/01/Screenshot-Lios.jpg?fit=600%2C335&amp;ssl=1"><img alt="Line Ocr Free Ocr Api I2ocr is a free online optical character recognition (ocr) that extracts text from images so that it can be edited, formatted, indexed, searched, or translated. uat upskilled edu au" src="https://i0.wp.com/www.linuxlinks.com/wp-content/uploads/2018/01/Screenshot-Lios.jpg?fit=600%2C335&amp;ssl=1" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSb90LC3vBDxM09-yCH5qm4J8Tmk3rXlgOZ0g&amp;usqp=CAU';"></a>
+ <figcaption>
+   <div align="center">
+<li>Original Resolution: 600x335 px</li> 
+    <mark>Line Ocr Free Ocr Api </mark> - Everything is nice, and sending works on digital pin 3, but when it comes to configuring timer2 i am a bit confused about it.
+</figcaption>  
+    </aside>
+    <aside> 
+        <a href="https://www.i2ocr.com/i2ocr.png"><img alt="I2ocr Free Online Ocr Recognize machine printed devanagari with or without a dictionary. i2ocr free online ocr" src="https://www.i2ocr.com/i2ocr.png" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp0sdrwKaVfT8O8LSGYbMf7BDBuOUoBpi4Yw&amp;usqp=CAU';"></a>
+ <figcaption>
+   <div align="center">
+<li>Original Resolution: 420x240 px</li> 
+    <mark>I2ocr Free Online Ocr </mark> - Using google&#039;s ocr technology might be the best free option for you.
+</figcaption>  
+    </aside>
+    <aside> 
+        <a href="http://www.i2ocr.com/i2pdf_ad_2.png"><img alt="I2ocr Convert Sindhi Pdf To Text I2ocr is a free online optical character recognition (ocr) that extracts text from images so that it can be edited, formatted, indexed, searched, or translated. i2ocr" src="http://www.i2ocr.com/i2pdf_ad_2.png" width="100%" onerror="this.onerror=null;this.src='https://lh3.googleusercontent.com/proxy/qpVpvk3tYkax6miU14iG8XcPvQEJ9x7vAPKCfM2ZNmkDUAi7VztOj_Zpli1Eg8zcMK_RbvyGk_rj6D4';"></a>
+ <figcaption>
+   <div align="center">
+<li>Original Resolution: 600x300 px</li> 
+    <mark>I2ocr Convert Sindhi Pdf To Text </mark> - Allt i einni app til ad breyta einingunni fra hvor oedrum eins og, svaedi, bindi, lengd, tyngd.
+</figcaption>  
+    </aside>
+    <aside> 
+        <a href="https://4.bp.blogspot.com/-7WaFVMX6_pY/V5CEoJMJQQI/AAAAAAAAQ08/7xhnzU9IJlQ4uXz0iotFTA67o7tiNHnTgCLcB/s400/vaidiksookt.jpg"><img alt="Free Hindi Ocr Software Everything is nice, and sending works on digital pin 3, but when it comes to configuring timer2 i am a bit confused about it. free hindi ocr software" src="https://4.bp.blogspot.com/-7WaFVMX6_pY/V5CEoJMJQQI/AAAAAAAAQ08/7xhnzU9IJlQ4uXz0iotFTA67o7tiNHnTgCLcB/s400/vaidiksookt.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvutZAdmCBKfJg0OlfInB1nlEFnZaEguPBLw&amp;usqp=CAU';"></a>
+ <figcaption>
+   <div align="center">
+<li>Original Resolution: 400x259 px</li> 
+    <mark>Free Hindi Ocr Software </mark> - Software ocr to word has the capability to identify text within image files and turn it into electronic document.
+</figcaption>  
+    </aside>
+    <aside> 
+        <a href="https://d3i71xaburhd42.cloudfront.net/e7d5a19891f7ced0d6bcc88f65504458492369c7/5-TableIV-1.png"><img alt="Pdf Multilingual Ocr For Indic Scripts Semantic Scholar I2ocr is a free online optical character recognition (ocr) that extracts marathi text from images and scanned documents so that it can be edited, formatted, indexed, searched, or translated. pdf multilingual ocr for indic scripts" src="https://d3i71xaburhd42.cloudfront.net/e7d5a19891f7ced0d6bcc88f65504458492369c7/5-TableIV-1.png" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJrR7yCJ04EsFi1FcArcZ1FO1QhkJ_F7usyQ&amp;usqp=CAU';"></a>
+ <figcaption>
+   <div align="center">
+<li>Original Resolution: 538x398 px</li> 
+    <mark>Pdf Multilingual Ocr For Indic Scripts Semantic Scholar </mark> - So, here is how it look like in my setting ocr2a to 222 gives me nice 36khz (and imo it should work for pin 3 or pin 11 if it is responsible for one of these pins, if not then i missed.
+</figcaption>  
+    </aside>
+    <aside> 
+        <a href="https://www.i2ocr.com/css/images/i2symbol_app_300.png"><img alt="I2ocr Free Online Ocr Automatic page segmentation of document images in multiple indian languages. i2ocr free online ocr" src="https://www.i2ocr.com/css/images/i2symbol_app_300.png" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlnZ6uUvbozpqRCTLMQ4dT7VHB4PD9ihpCwA&amp;usqp=CAU';"></a>
+ <figcaption>
+   <div align="center">
+<li>Original Resolution: 300x300 px</li> 
+    <mark>I2ocr Free Online Ocr </mark> - This works for printed text and not for handwriting recognition.
+</figcaption>  
+    </aside>
+    <aside> 
+        <a href="https://qph.fs.quoracdn.net/main-thumb-168344374-200-saxmjvilcwkqzttnodxgzhmkhulgnrtl.jpeg"><img alt="Is There A Successful Ocr Solution For Hindi Quora I2ocr is a free online optical character recognition (ocr) that extracts text from images so that it can be edited, formatted, indexed, searched, or translated. is there a successful ocr solution for" src="https://qph.fs.quoracdn.net/main-thumb-168344374-200-saxmjvilcwkqzttnodxgzhmkhulgnrtl.jpeg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuHgDLx9AOyUv66x4k9tfDJdd5VUbtOSnSNg&amp;usqp=CAU';"></a>
+ <figcaption>
+   <div align="center">
+<li>Original Resolution: 200x200 px</li> 
+    <mark>Is There A Successful Ocr Solution For Hindi Quora </mark> - Were can i go to download it ?
+</figcaption>  
+    </aside>
+    <aside> 
+        <a href="https://www.how2shout.com/wp-content/uploads/2018/09/Optical-Character-Recognition-OCR.-Online-Free-Convert-Scanned-Documents-and-Images-into-Editable-Word-Pdf-Excel-and-Txt-Text-output-formats.jpg"><img alt="8 Best Online Ocr Websites To Extract Text From Images H2s Media Free ocr software as a hosted service and as download. online ocr websites to extract text" src="https://www.how2shout.com/wp-content/uploads/2018/09/Optical-Character-Recognition-OCR.-Online-Free-Convert-Scanned-Documents-and-Images-into-Editable-Word-Pdf-Excel-and-Txt-Text-output-formats.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYAyRBsrbgDlR3CA7-AbZzHnHXX2SFs5fCnw&amp;usqp=CAU';"></a>
+ <figcaption>
+   <div align="center">
+<li>Original Resolution: 938x554 px</li> 
+    <mark>8 Best Online Ocr Websites To Extract Text From Images H2s Media </mark> - Text newsprint using minimum distance classifier.
+</figcaption>  
+    </aside>
+    <aside> 
+        <a href="https://www.siteprice.org/SiteThumbs/i/i2ocr.com.jpeg"><img alt="Top 77 Similar Websites Like Quillpad In And Alternatives All you need to do i scan your document as a pdf or an image with good resolution. similar websites like quillpad in" src="https://www.siteprice.org/SiteThumbs/i/i2ocr.com.jpeg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfkiQpzLEgSB5K_Cg8ML72Z_jhbwqQlOgi9w&amp;usqp=CAU';"></a>
+ <figcaption>
+   <div align="center">
+<li>Original Resolution: 336x252 px</li> 
+    <mark>Top 77 Similar Websites Like Quillpad In And Alternatives </mark> - I2ocr is a free online optical character recognition (ocr) that extracts marathi text from images and scanned documents so that it can be edited, formatted, indexed, searched, or translated.
+</figcaption>  
+    </aside>
+</section>
+		
+<h3>Random Posts</h3>
+		
+<li><a href="/posts/filmyhit-online" target="_blank">Filmyhit Online</a></li>
+		
+<li><a href="/posts/brokensilenze-urban-entertainment" target="_blank">Brokensilenze Urban Entertainment</a></li>
+		
+<li><a href="/posts/choli-ke-peeche-kya-hai-meaning-in-malayalam" target="_blank">Choli Ke Peeche Kya Hai Meaning In Malayalam</a></li>
+		
+<li><a href="/posts/hdfairmovie" target="_blank">Hdfairmovie</a></li>
+		
+<li><a href="/posts/izone-la-vie-en-rose-album" target="_blank">Izone La Vie En Rose Album</a></li>
+		
+<li><a href="/posts/tony-kakkar-picuki" target="_blank">Tony Kakkar Picuki</a></li>
+		
+<li><a href="/posts/hero-no-zero-reviews" target="_blank">Hero No. Zero Reviews</a></li>
+		
+<li><a href="/posts/angelina-watson-wrestler" target="_blank">Angelina Watson Wrestler</a></li>
+		
+<li><a href="/posts/hairstyle-beard-parmish-verma" target="_blank">Hairstyle Beard Parmish Verma</a></li>
+		
+<li><a href="/posts/mera-watan-pakistan-essay-in-urdu" target="_blank">Mera Watan Pakistan Essay In Urdu</a></li>
+		
+<li><a href="/posts/vk-superheroine" target="_blank">Vk Superheroine</a></li>
+		
+<li><a href="/posts/ranbir-kapoor-kurta-in-kabira-song" target="_blank">Ranbir Kapoor Kurta In Kabira Song</a></li>
+		
+<li><a href="/posts/tragedy-sujata-birla" target="_blank">Tragedy Sujata Birla</a></li>
+		
+<li><a href="/posts/hit-telugu-movie-poster" target="_blank">Hit Telugu Movie Poster</a></li>
+		
+<li><a href="/posts/the-big-boss-chinese-drama-ending" target="_blank">The Big Boss Chinese Drama Ending</a></li>
+	
+<h3>Popular Posts</h3>
+		
+<li><a href="/posts/jonita-gandhi-wiki" target="_blank">Jonita Gandhi Wiki</a></li>
+		
+<li><a href="/posts/brahma-murari-surarchita-lingam-song-lyrics-in-kannada" target="_blank">Brahma Murari Surarchita Lingam Song Lyrics In Kannada</a></li>
+		
+<li><a href="/posts/sketch-debkpk5r24k-varun-dhawan-drawing" target="_blank">Sketch:debkpk5R24K= Varun Dhawan Drawing</a></li>
+		
+<li><a href="/posts/anand-bhai-mbbs" target="_blank">Anand Bhai Mbbs</a></li>
+		
+<li><a href="/posts/yeh-h-mohbbtein-forum" target="_blank">Yeh H Mohbbtein Forum</a></li>
+		
+<li><a href="/posts/hitoe-ohtake" target="_blank">Hitoe Ohtake</a></li>
+		
+<li><a href="/posts/smart-shankar-hair-cutting" target="_blank">Smart Shankar Hair Cutting</a></li>
+		
+<li><a href="/posts/5x-movie-com" target="_blank">5X Movie.com</a></li>
+		
+<li><a href="/posts/1995-tamil-movie-mp3-songs-free-download" target="_blank">1995 Tamil Movie Mp3 Songs Free Download</a></li>
+		
+<li><a href="/posts/mera-badla-2017-wikipedia" target="_blank">Mera Badla 2017 Wikipedia</a></li>
+		
+<li><a href="/posts/ravindra-jadeja-instagram-picuki" target="_blank">Ravindra Jadeja Instagram Picuki</a></li>
+		
+<li><a href="/posts/kooku-web-series-download-filmywap" target="_blank">Kooku Web Series Download Filmywap</a></li>
+		
+<li><a href="/posts/chidiya-naal-baaz-ladawa" target="_blank">Chidiya Naal Baaz Ladawa</a></li>
+		
+<li><a href="/posts/operation-java-full-movie-download" target="_blank">Operation Java Full Movie Download</a></li>
+		
+<li><a href="/posts/jab-we-met-meaning-in-tamil" target="_blank">Jab We Met Meaning In Tamil</a></li>
+		</div>
+	</article>
+</main>
+
+
+
+
+			</div>
+			<aside class="sidebar"><div class="widget-search widget">
+	<form class="widget-search__form" role="search" method="get" action="https://google.com/search">
+		<label>
+			<input class="widget-search__field" type="search" placeholder="SEARCH…" value="" name="q" aria-label="SEARCH…">
+		</label>
+		<input class="widget-search__submit" type="submit" value="Search">
+		<input type="hidden" name="sitesearch" value="https://soridicani.vercel.app/" />
+	</form>
+</div>
+<div class="widget-recent widget">
+	<h4 class="widget__title">Recent Posts</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/posts/akhiyan-song-lyrics-in-hindi/">Akhiyan Song Lyrics In Hindi : Written punjabi song akhiyan lyrics jatt &amp;amp; juliet 2 movie mp3 akhiyaan song sung by amber vashisht n rj priyanka lyrics by dheeraj rattan.</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/bindassbros-bigg-boss-kannada-season-7/">Bindassbros Bigg Boss Kannada Season 7 / Galaxy note10 lite ಬಡವರ ಫೋನ್ ಆದರೂ ಬಡವರಿಗಲ್ಲ | samsung galaxy note 10 lite unboxing &amp;amp; review |kannada.</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/blunder-meaning-in-hindi/">Blunder Meaning In Hindi / A grievous mistake that embarrasses (or should embarrass, at least) the committer.</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/chidiya-naal-baaj-ladawa-full-quote-in-punjabi/">Chidiya Naal Baaj Ladawa Full Quote In Punjabi - Ess lyi begaani dhee apaan koi vihayi ni.</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/chiyaan-vikram-family-pictures/">Chiyaan Vikram Family Pictures / Tamil movie chiyaan vijay kollywood folder shankar film indian.</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/complete-solstheim-map/">Complete Solstheim Map / Looking to download safe free latest software now.</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/govt-college-of-commerce-logo/">Govt. College Of Commerce Logo - The sexual harassment at workplace act.</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/mugulu-nage-songs-download-kannadamasti/">Mugulu Nage Songs Download Kannadamasti - Mugulu nagehodi song | tamil love song.</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/operation-java-full-movie-watch-online-free/">Operation Java Full Movie Watch Online Free : Watch free operation java 2021 malayalam full movie movierulz gomovies, the plot revolves around the group of officers set out on a deadly mission.</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/salim-altaf-ki-qawali/">Salim Altaf Ki Qawali - (muebarek, şerefli ve temiz işleri yaparken sagdan başlamak muestehaptir.</a></li>
+		</ul>
+	</div>
+</div>
+</aside>
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2021 Soridicani.
+			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
+		</div>
+	</div>
+		
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-21862896-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-21862896-2');
+</script>
+</footer>
+	</div>
+<script async defer src="/js/menu.js"></script>
+</body>
+</html>
